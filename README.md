@@ -1,4 +1,7 @@
-# Frontend Mentor - Grid landing page solution
+# Grid Landing Page
 
-This is a solution to the [Grid landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/grid-landing-page). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution for the Grid Landing Page challenge.
 
+Built with HTML, CSS and JS.
+
+![Grid Landing Page preview](./preview.png)

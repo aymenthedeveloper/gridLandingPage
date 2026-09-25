@@ -65,8 +65,6 @@ h1, p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: relative; */
-    /* z-index: 3; */
 }
 .overlay {
     position: absolute;
@@ -171,7 +169,9 @@ h1, p{
     line-height: 1.7rem;
     margin-bottom: 2rem;
 }
-.main .stats {
+
+.main .stats .cards-list {
+    all: unset;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -183,7 +183,6 @@ h1, p{
     min-height: 328px;
     flex-direction: column;
     justify-content: space-between;
-    cursor: pointer;
 }
 .main .stats .card:hover {
     background-color: var(--Blue-400);
@@ -247,7 +246,7 @@ h1, p{
 }
 
 @media (max-width: 700px) {
-    .main .stats {
+    .main .stats .cards-list{
         grid-template-columns: 1fr;
     }
     .footer {
